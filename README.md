@@ -29,7 +29,15 @@ In this project, our group provides World Population statistics analysis through
 
 
 
-https://github.com/JP-Butler/Population_analytics_project/assets/129707393/4a3f9bda-2658-4168-8b78-2f3729f0b4f5
+
+
+
+
+
+https://github.com/JP-Butler/Population_analytics_project/assets/129707393/08e5abc3-54b9-4cf8-a421-35073d72d4b2
+
+
+
 
 
 

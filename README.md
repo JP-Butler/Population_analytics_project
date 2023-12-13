@@ -1,22 +1,34 @@
-# Population_analytics
+# Population_analytics_Project
 
-## World Population Statistics
+## World Population Statistics Analysis
 
-## Project Description
- - This Project uses Python Flask-powered API, HTML/CSS, JavaScript, SQLite databases and Visual Studio to take a deep dive into the analytics of the World Population. An HTML website is created using Flask API and the SQLite databases in order to show obtained data in a number of ways. A World map was created which has a popup feature that provides information about all the countries in the world. The pop up shows the user informaiton such as the countries name, 2023 population, yearly percentage change, land area, median age, world share percentage, 2021 life expectency, and more. Below this map is an interactive drop down menu which contains the 10 largest countries in the world based on population. When one of the countries is selected, the page offers information about that country which include, the countries populaiton, yearly percentage change, yearly change, median age, fertility rate, the world population percentage share, and the world population. In addition to this information, the drop down menu provides visualizations of the data. Each counrty that is selected comes with a pie chart that shows the countries population percentage compared to the other top 9 and the remainder of the worlds population. The other visualization that is connected to each of the top 10 countries is a line graph that shows the selected countries population growth starting in 1955 and ending in the current year of 2023.
+## Overview & Aim
+In this project, our group provides World Population statistics analysis through an interactive Dashboard. Aiming to provide users an intuitive platform for exploring population analytics. 
+
+## Description
+  This Project uses Python Flask-powered API, HTML/CSS, JavaScript, SQLite databases to take a deep dive into the analytics of the World Population. An HTML website is created using Flask API and the SQLite databases in order to show obtained data in a number of ways. A world map was created with dynamic features such as scrolling, zoom, and a clickable name pop-up. Below this map is an interactive drop down menu which contains the top 10 most populous countries. When a selection is made from the drop down, the "Population Info" panel offers information about that country which include, the countries populaiton, yearly percentage change, yearly change, median age, fertility rate, the world population percentage share, and the world population. In addition, the line chart and bar chart change on selection, showcasing the chosen countries Fertility Rate by Year and Population Growth by Year from 1955 to 2023. Finally a pie chart depicting the World Population share by percentage of the top 10 countries and all other countries as "Rest of the World".
+
 ## Summary of Contents
-### Data and Delivery
- - A SQLite database is used to house the data
- - The project is powered by a Python Flask API and includes HTML/CSS, JavaScript
- - The dataset contains over 100 unique records
- ### Back End
- - A JavaScript library learned outside of class was used
- - The page created to showcase data visualizations runs without error
- - The project contains Leaflet and Plotly charts built from data gathered through web scraping
+### Front End
+ 
+ - Javascript is responsible for client-side interactivity and dynamic behaviour.
+ - Visualizations: Chloropleth World Map used Leaflet.js, charts used Plot.js
+ - D3.json to fetch required data for the visualizations 
+ - Bootstrap and CSS was used for standard layout design of final webpage
+### Data, Connection & Back End
+ - A SQLite database is used to store approximately 400 records of data
+ - A Python Flask API connects the back end to the front end 
+ - SQLAlchemy provides the connection from the Database to the Javascipt frile using the `create_engine` function
+ - API endpoints through Flask routes are created for the front end to call, located in `/Populations/app.py` 
+
 ### Visualizations
- - The project has an interactive map and each of the top 10 countries has a line graph and pie chart 
- - The HTML has a drop down menu in addition to the interactive map
- - The visualizations are very clear and offer each user the abitily to look at the data and come to their own conclusions about what they see
+ - An interactive World map with dynamic features such as zoom & scroll
+ - A Bar plot & line chart displaying fertility rate and population growth for the top 10 most populous countries
+ - A Pie chart showcasing population share as a percentage for the top 10 most populous countries along with the rest of the world. 
+ - Built with Leaflet.js (world map) and Plot.js (charts)
+
+
+
 ## Acknowledgements
  - JavaScript
  - Visual Studio

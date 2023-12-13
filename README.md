@@ -29,6 +29,10 @@ In this project, our group provides World Population statistics analysis through
 
 
 
+https://github.com/JP-Butler/Population_analytics_project/assets/129707393/4a3f9bda-2658-4168-8b78-2f3729f0b4f5
+
+
+
 ## Acknowledgements
  - JavaScript
  - Visual Studio

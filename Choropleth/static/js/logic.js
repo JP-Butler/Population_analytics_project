@@ -52,10 +52,10 @@ function createCharts(){
 
   // Access api route for selected country THEN perform function on data
   d3.json(`http://127.0.0.1:5000/api/${countryName}`).then(countryData => {
-    // console.log(countryData) // log to verify countryData is accurate data
+    // console.log(countryData) // log to verify countryData is accurate 
     
     let yearList = countryData.map(obj => obj.Year);
-    //console.log(yearList) 
+    //console.log(yearList) --> run to verify 
 
     // Build Line Plot
     let traceLine = {

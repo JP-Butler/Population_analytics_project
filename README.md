@@ -5,6 +5,14 @@
 ## Overview & Aim
 In this project, our group provides World Population statistics analysis through an interactive Dashboard. Aiming to provide users an intuitive platform for exploring population analytics. 
 
+## Table of Contents
+
+- [Description](#description)
+- [Summary of Contents](#summary-of-contents)
+- [Video Demonstration](#video-demonstration)
+- [Acknowledegments](#acknowledgements)
+- [Contributing](#contributing)
+
 ## Description
   This Project uses Python Flask-powered API, HTML/CSS, JavaScript, SQLite databases to take a deep dive into the analytics of the World Population. An HTML website is created using Flask API and the SQLite databases in order to show obtained data in a number of ways. A world map was created with dynamic features such as scrolling, zoom, and a clickable name pop-up. Below this map is an interactive drop down menu which contains the top 10 most populous countries. When a selection is made from the drop down, the "Population Info" panel offers information about that country which include, the countries populaiton, yearly percentage change, yearly change, median age, fertility rate, the world population percentage share, and the world population. In addition, the line chart and bar chart change on selection, showcasing the chosen countries Fertility Rate by Year and Population Growth by Year from 1955 to 2023. Finally a pie chart depicting the World Population share by percentage of the top 10 countries and all other countries as "Rest of the World".
 
@@ -27,6 +35,8 @@ In this project, our group provides World Population statistics analysis through
  - A Pie chart showcasing population share as a percentage for the top 10 most populous countries along with the rest of the world. 
  - Built with Leaflet.js (world map) and Plot.js (charts)
 
+ ## Video Demonstration
+
 
 
 
@@ -44,19 +54,22 @@ https://github.com/JP-Butler/Population_analytics_project/assets/129707393/08e5a
 ## Acknowledgements
  - JavaScript
  - Visual Studio
- - HTML code: index.html
  - https://www.worldometers.info/world-population/#top20
  - https://github.com/topics/worldometer-api
  - https://worldpopulationreview.com
  - https://data.worldbank.org
- - Aid from Instructor, Learning Assistant, and Teaching Assistants
  - https://getbootstrap.com/docs/5.3/getting-started/introduction/
  - https://tedboy.github.io/flask/generated/flask.jsonify.html
- - Module 10-Advanced SQL; day 3, activities - Flask, jsonify, sqlalchemy, sqlite
- - Module 11-Data Collection, day 1 - CSS
- - Module 14
- - Module 15- day 2, activities - cholorpleth, geoJSON, HTML, JS
+ - Learning material - Carelton University Business Analytics & Data Visualization Bootcamp
+ - Aid from Instructor and Teaching Assistant of Boot Camp 
  - https://leafletjs.com/
  - https://codepen.io/infowind/pen/yrMgVr
  - ChatGPT
+
+ ## Contributing
+
+ - [Brettney Chau-Dang](https://github.com/bchaudang)
+ - [Rebeca Perez](https://github.com/RP8844)
+ - [Dario Micucci](https://github.com/dadario10)
+ - [Justin Butler](https://github.com/JP-Butler)
 
